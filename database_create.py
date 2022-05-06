@@ -14,4 +14,4 @@ import matplotlib.pyplot as plt
 
 t3 = Tetra3()
 
-t3.generate_database(40,"hip_40fov",'hip_main')
+t3.generate_database(max_fov=40,save_as="hip_40fov",star_catalog='hip_main')
