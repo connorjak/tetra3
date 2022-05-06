@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create instance and load default_database (built with max_fov=12 and the rest as default)
-t3 = Tetra3('default_database')
+t3 = Tetra3('hip_main')
 
 # Path where images are
 path = Path('screenshots/')
